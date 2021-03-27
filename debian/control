@@ -1,0 +1,12 @@
+Source: ros-melodic-pincher-arm-moveit-config
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pincher-arm-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-joint-state-publisher, ros-melodic-moveit-fake-controller-manager, ros-melodic-moveit-kinematics, ros-melodic-moveit-planners-ompl, ros-melodic-moveit-ros-move-group, ros-melodic-moveit-ros-visualization, ros-melodic-moveit-setup-assistant, ros-melodic-moveit-simple-controller-manager, ros-melodic-pincher-arm-description, ros-melodic-robot-state-publisher, ros-melodic-tf2-ros, ros-melodic-xacro
+Description: An automatically generated package with all the configuration and launch files for using the pincher_arm with the MoveIt! Motion Planning Framework
