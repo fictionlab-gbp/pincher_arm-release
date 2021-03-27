@@ -1,0 +1,12 @@
+Source: ros-noetic-pincher-arm-moveit-config
+Section: misc
+Priority: optional
+Maintainer: Fictionlab <support@fictionlab.pl>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pincher-arm-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-joint-state-publisher, ros-noetic-moveit-fake-controller-manager, ros-noetic-moveit-kinematics, ros-noetic-moveit-planners-ompl, ros-noetic-moveit-ros-move-group, ros-noetic-moveit-ros-visualization, ros-noetic-moveit-setup-assistant, ros-noetic-moveit-simple-controller-manager, ros-noetic-pincher-arm-description, ros-noetic-robot-state-publisher, ros-noetic-tf2-ros, ros-noetic-xacro
+Description: An automatically generated package with all the configuration and launch files for using the pincher_arm with the MoveIt! Motion Planning Framework
