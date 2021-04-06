@@ -1,0 +1,20 @@
+ros-noetic-pincher-arm-description (0.2.0-1buster) buster; urgency=high
+
+  * Add license content to the URDF files
+  * Don't add base_link to URDF
+
+ -- Fictionlab <support@fictionlab.pl>  Tue, 06 Apr 2021 00:00:00 -0000
+
+ros-noetic-pincher-arm-description (0.1.1-1buster) buster; urgency=high
+
+
+
+ -- Fictionlab <support@fictionlab.pl>  Sat, 27 Mar 2021 00:00:00 -0000
+
+ros-noetic-pincher-arm-description (0.1.0-1buster) buster; urgency=high
+
+
+
+ -- Fictionlab <support@fictionlab.pl>  Sat, 27 Mar 2021 00:00:00 -0000
+
+
